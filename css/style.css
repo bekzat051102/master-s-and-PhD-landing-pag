@@ -131,12 +131,10 @@ section {
 
 .read-more {
   text-align: center;
-  /* Центрирование содержимого по горизонтали */
 }
 
 .read-more .btn {
   display: inline-block;
-  /* Делаем кнопку блочным элементом */
 }
 
 .shine {
@@ -185,9 +183,7 @@ section {
 
 .logo img {
   height: 50px;
-  /* Высота логотипа */
   margin-right: 10px;
-  /* Отступ между логотипом и текстом */
 }
 
 
@@ -339,13 +335,10 @@ section {
 
 .column:not(:first-child) {
   margin-left: 10px;
-  /* Расстояние между колонками */
 }
 
 p {
   font-size: 150%;
-  /* Увеличиваем размер текста на 20% от текущего размера */
-
 }
 
 /* ends */
@@ -354,14 +347,11 @@ p {
 
 .course {
   display: flex;
-  /* Размещаем блоки по горизонтали */
 }
 
 .box-contain {
   flex: 1;
-  /* Равномерно распределяем доступное пространство между блоками */
   margin: 0 10px;
-  /* Добавляем небольшие отступы между блоками */
 }
 
 .course .box-contain {
@@ -373,9 +363,7 @@ p {
 .course .box-contain .box-1 .image {
   display: flex;
   justify-content: center;
-  /* Выравниваем по горизонтали */
   align-items: center;
-  /* Выравниваем по вертикали */
   height: 25rem;
   overflow: hidden;
   position: relative;
@@ -383,17 +371,11 @@ p {
 
 .course .box-contain .box-1 .image img {
   max-width: 100%;
-  /* Максимальная ширина изображения */
   max-height: 100%;
-  /* Максимальная высота изображения */
   position: absolute;
-  /* Позиционирование абсолютным */
   top: 50%;
-  /* Перемещаем верхнюю точку изображения на 50% высоты контейнера */
   left: 50%;
-  /* Перемещаем левую точку изображения на 50% ширины контейнера */
   transform: translate(-50%, -50%);
-  /* Корректируем позиционирование на половину ширины и высоты изображения */
 }
 
 .course .box-contain .box-1 .image h3 {
